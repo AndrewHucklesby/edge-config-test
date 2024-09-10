@@ -3,3 +3,4 @@ services:
     image: nginx:alpine
     volumes:
       - ./docker/${PORTAINER_EDGE_ID}:/configs
+    restart: always
